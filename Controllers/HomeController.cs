@@ -17,7 +17,10 @@ namespace SaturdayMoring_CalcApp.Controllers
         {
             _logger = logger;
         }
-
+        public IActionResult Index()
+        {
+            return View();
+        }
         public IActionResult Calculate()
         {
             return View();
